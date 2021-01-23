@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="Two pages survey">
+        <meta name="keywords" content="survey, opinion">
+        <meta name="author" content="Alexandra Magdici">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Layout-survey</title>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Noto+Sans&family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="resources/main.css">
+    </head>
+    <body>
+        <header>
+            <div class="number-wrapper">
+                <img src="../Layout-survey/assets/step-1.png">
+                <div class="title">Notificatons survey</div>
+            </div>
+        </header>
+        <main>
+            <div class="main-wrapper">
+                <div class="text-wrapper">
+                    <p>We're working on our notification system to make our product work better.</p>
+                    <p>The survey consists in several questions and usually takes 5-7 minutes to complete.</p>
+                </div>
+                <form>
+                    <label for="email">Enter you email:</label><br>
+                    <input class="email" required type="email" id="email" placeholder="Your answer"><br>
+                    
+                    <p>Are you an admin or a member on our Board?</p>
+                        <input type="radio" id="admin" name="user">
+                        <label for="admin">Admin</label><br>
+                        <input type="radio" id="member" name="user">
+                        <label for="member">Member</label><br>
+                    
+                    <p>How dou you collaborate in our Board?</p>
+                        <input type="radio" id="create" name="select">
+                        <label for="create">Create and edit content</label><br>
+                        <input type="radio" id="comment" name="select">
+                        <label for="comment">Comment and leave comment</label><br>
+                        <input type="radio" id="review" name="select">
+                        <label for="review">Just review created comment</label><br>
+                        <input type="radio" id="other" name="select">
+                        <label for="other">Other:</label>
+                        <input class="other-type-in" type="text" id="other"><br>
+                </form>
+            </div>
+        </main>
+        <footer>
+            <button><a href="page.html">Next</a></button>
+        </footer>
+    </body>
+</html>
