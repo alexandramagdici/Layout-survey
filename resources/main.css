@@ -25,6 +25,7 @@ header {
 }
 
 .title {
+  /* cred ca ar avea sens sa positionezi titlul absolut fata de parintele lui relativ, nu? */
   position: relative;
   background-color: lightgrey;
   top: -140px;
